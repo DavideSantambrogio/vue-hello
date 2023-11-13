@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+   
+    <!-- vue -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+   
+</head>
+<body>
+    <div id="app">
+        <!-- scrivi quì il codice gestito da vue -->
+        <h1 :class="classColor">{{title}}</h1>
+
+        <button @click="changeColor">cambia colore</button>
+        <br>      
+
+        <img :src="imgSrc" alt="">
+        <br>      
+               
+        <button @click="clickMe">click me</button>   
+        
+        
+    </div>
+    <!-- script -->
+    <script src="js/script.js"></script>
+</body>
+</html>
